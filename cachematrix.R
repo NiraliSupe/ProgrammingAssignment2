@@ -2,7 +2,7 @@
 
 ## Takes a matrix and returns a set of functions which allow to 
 ## cache inverse calculation.
-## It increases the performance ad it saves a lot of time to calculate 
+## It increases the performance as it saves a lot of time to calculate 
 ## inverse if it's been already proceed once.
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
